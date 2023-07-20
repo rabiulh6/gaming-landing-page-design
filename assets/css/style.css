@@ -1,8 +1,7 @@
-
 /* Root Styles */
 :root {
-    --primary-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    --main-font: "Arial";
+    --primary-font: "Work Sans", sans-serif;
+    --icon-font: "Font Awesome 5 Free";
 }
 
 /* Global Style */
@@ -12,10 +11,25 @@
     box-sizing: border-box;
 }
 
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* Common use styles */
 .container {
     max-width: 1140px;
     padding: 0px 12px;
     margin: 0 auto;
+}
+
+.widget-style {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
