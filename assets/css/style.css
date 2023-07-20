@@ -27,7 +27,7 @@ a {
     margin: 0 auto;
 }
 
-.widget-style {
+.widget-text-color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
