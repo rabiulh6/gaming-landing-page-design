@@ -1,0 +1,21 @@
+
+/* Root Styles */
+:root {
+    --primary-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --main-font: "Arial";
+}
+
+/* Global Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Common use styles */
+.container {
+    max-width: 1140px;
+    padding: 0px 12px;
+    margin: 0 auto;
+}
