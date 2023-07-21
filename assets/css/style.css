@@ -143,6 +143,7 @@ li {
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: -75px;
 }
 
 .text-container h2 {
@@ -157,6 +158,7 @@ li {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-left: -75px;
 }
 
 .text-container ul {
@@ -256,8 +258,6 @@ li {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    justify-content: center;
-    align-items: center;
     padding-top: 20px;
 }
 
@@ -274,7 +274,7 @@ li {
 .cover-img-box img {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 342px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -307,10 +307,11 @@ li {
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 22px;
     display: inline-block;
     text-align: left;
     position: relative;
+    padding-top: 10px;
 }
 
 /* Games End */
