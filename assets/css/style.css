@@ -1,14 +1,27 @@
-/* Root Styles */
+/* Root Styles ======================== */
 :root {
     --primary-font: "Work Sans", sans-serif;
     --icon-font: "Font Awesome 5 Free";
 }
 
-/* Global Style */
+/* Its Temporary */
+.hide {
+    display: none;
+}
+
+/* Global Style ===================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul,
@@ -16,11 +29,7 @@ li {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-}
-
-/* Common use styles */
+/* Common use styles ====================== */
 .container {
     max-width: 1140px;
     padding: 0px 12px;
@@ -32,4 +41,73 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* Icon Styles */
+.fa-youtube {
+    color: #F61C0D;
+}
+
+.fa-tiktok {
+    color: #000000;
+    text-shadow: 0.8px 0px #F00044;
+}
+
+/* Header Styles ====================== */
+#header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo>img {
+    width: 100%;
+    padding: 5px;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    text-align: center;
+    color: #3C354F;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-menu .menu-item {
+    padding: 10px 0px;
+    margin-left: 22px;
+}
+
+.main-menu a {
+    display: inline-block;
+}
+
+.main-menu .follow-icon {
+    display: flex;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    align-items: center;
+    padding: 14px 18px;
+}
+
+.follow-icon ul {
+    display: flex;
+    align-items: center;
+}
+
+.follow-icon ul a {
+    padding: 0px 8px;
+    font-size: 1.3rem;
 }

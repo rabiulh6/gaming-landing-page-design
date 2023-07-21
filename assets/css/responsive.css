@@ -1,0 +1,7 @@
+/*  
+sm => 640px
+md => 768px
+lg => 1024px
+*/
+
+@media screen and (max-width: 640px) {}
