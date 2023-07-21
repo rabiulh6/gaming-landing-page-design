@@ -208,3 +208,51 @@ li {
     line-height: normal;
     padding: 10px;
 }
+
+/* Quick Access App Style */
+
+.quick-access-app {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 80px 0;
+}
+
+.qa-app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 4px;
+    color: #0B0223;
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #FFF;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.container-box:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+
+
+.container-box img {
+    max-width: 50px;
+    max-height: 50px;
+    /* margin-right: 14px; */
+}
+
+.container-box P {
+    padding: 0 12px;
+}
