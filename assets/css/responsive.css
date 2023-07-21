@@ -41,4 +41,10 @@ lg => 1024px
         gap: 20px;
         place-items: center;
     }
+    .career-content{
+        flex-direction: column;
+    }
+    .career-left{
+        margin-bottom: 40px;
+    }
 }
