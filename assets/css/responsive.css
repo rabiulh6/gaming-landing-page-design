@@ -7,7 +7,8 @@ lg => 1024px
 @media screen and (max-width: 576px) {
 
     .header-content,
-    .main-menu {
+    .main-menu,
+    .hero-content {
         flex-direction: column;
     }
 
@@ -41,23 +42,32 @@ lg => 1024px
         gap: 20px;
         place-items: center;
     }
-    .career-content{
+
+    .career-content {
         flex-direction: column;
     }
-    .career-left{
+
+    .career-left {
         margin-bottom: 40px;
     }
-    .quick-action-content{
+
+    .quick-action-content {
         flex-direction: column;
     }
-    .quick-left{
+
+    .quick-left {
         padding: 0;
     }
-    .qa-title{
+
+    .qa-title {
         padding-left: 200px;
     }
-    .quick-right .small-img{
+
+    .quick-right .small-img {
         left: 0;
         bottom: 0;
+    }
+    .hero-content{
+        flex-direction: column-reverse;
     }
 }
