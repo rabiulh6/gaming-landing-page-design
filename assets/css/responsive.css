@@ -47,4 +47,17 @@ lg => 1024px
     .career-left{
         margin-bottom: 40px;
     }
+    .quick-action-content{
+        flex-direction: column;
+    }
+    .quick-left{
+        padding: 0;
+    }
+    .qa-title{
+        padding-left: 200px;
+    }
+    .quick-right .small-img{
+        left: 0;
+        bottom: 0;
+    }
 }
