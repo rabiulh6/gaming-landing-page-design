@@ -264,7 +264,6 @@ li {
     padding: 100px 0;
 }
 
-
 .section-title {
     color: #0B0223;
     text-align: center;
@@ -302,15 +301,11 @@ li {
     padding-top: 20px;
 }
 
-
-
 .games-content-box img {
     border-radius: 16px;
     border: 2px solid #fff;
     cursor: pointer;
 }
-
-
 
 .cover-img-box {
     position: relative;
@@ -334,6 +329,7 @@ li {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    cursor: pointer;
 }
 
 .cover-img-box:hover img {
@@ -344,7 +340,6 @@ li {
 .cover-img-box:hover .middle {
     opacity: 1;
 }
-
 
 .games-content-box a {
     color: #534C64;
